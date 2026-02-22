@@ -4,7 +4,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
+<<<<<<< HEAD
     <StartupFile>FallingBall.py</StartupFile>
+=======
+    <StartupFile>FlappyBall.py</StartupFile>
+>>>>>>> 074bf7b68bce0939f108a5bbdc38bf5feac23f9f
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +25,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="FallingBall.py" />
+=======
+    <Compile Include="FlappyBall.py" />
+>>>>>>> 074bf7b68bce0939f108a5bbdc38bf5feac23f9f
     <Compile Include="HCPS_PYG_01_DrawSquare_E3_ANS.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E4_ANS.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E2_ANS.py" />
