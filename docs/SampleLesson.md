@@ -9,7 +9,7 @@ of the &ltsummary&gt tag.
 ```
 Title: HCPS Pygame Sample Lesson
 Description: 
-Author: Mark
+Author: Mark D.
 Date: 2026-03-04
 ```
 </details>
