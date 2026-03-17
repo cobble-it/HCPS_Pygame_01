@@ -28,6 +28,7 @@
     <Compile Include="HCPS_PYG_01_DrawSquare_E2_ANS.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E1_ANS.py" />
     <Compile Include="HCPS_Pyg_01_DrawSquare_BEGIN.py" />
+    <Compile Include="snake.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="docs\" />
