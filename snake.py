@@ -116,7 +116,7 @@ def game_loop():
         pygame.display.flip()
         
         # Delay (reduce difficulty)
-        pygame.time.delay(500)  # 500ms delay
+        pygame.time.delay(300)  # 300ms delay
 
     return False
 
