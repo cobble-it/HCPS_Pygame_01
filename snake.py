@@ -114,6 +114,9 @@ def game_loop():
             screen.blit(msg2, (WIDTH // 2 - msg2.get_width() // 2, HEIGHT // 2 + 5))
 
         pygame.display.flip()
+        
+        # Delay (reduce difficulty)
+        pygame.time.delay(500)  # 500ms delay
 
     return False
 

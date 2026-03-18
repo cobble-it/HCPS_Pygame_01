@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FlappyBall.py</StartupFile>
+    <StartupFile>snake.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,7 @@
     <Compile Include="HCPS_PYG_01_DrawSquare_E2_ANS.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E1_ANS.py" />
     <Compile Include="HCPS_Pyg_01_DrawSquare_BEGIN.py" />
+    <Compile Include="M01_Hello_World.py" />
     <Compile Include="snake.py" />
   </ItemGroup>
   <ItemGroup>
@@ -35,6 +36,15 @@
     <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\Lesson_01_Hello_World.md" />
+    <Content Include="docs\Lesson_02.md" />
+    <Content Include="docs\Lesson_03.md" />
+    <Content Include="docs\Lesson_04.md" />
+    <Content Include="docs\Lesson_05.md" />
+    <Content Include="docs\Lesson_06.md" />
+    <Content Include="docs\Lesson_07.md" />
+    <Content Include="docs\Lesson_08.md" />
+    <Content Include="docs\Lesson_09.md" />
     <Content Include="docs\SampleLesson.md" />
     <Content Include="img\samurai_cat.gif" />
     <Content Include="img\samurai_cat.jpg" />
