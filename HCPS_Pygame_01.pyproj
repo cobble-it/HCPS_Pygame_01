@@ -29,6 +29,7 @@
     <Compile Include="HCPS_PYG_01_DrawSquare_E1_ANS.py" />
     <Compile Include="HCPS_Pyg_01_DrawSquare_BEGIN.py" />
     <Compile Include="M01_Hello_World.py" />
+    <Compile Include="M01_Hello_World_E01.py" />
     <Compile Include="snake.py" />
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +47,7 @@
     <Content Include="docs\Lesson_08.md" />
     <Content Include="docs\Lesson_09.md" />
     <Content Include="docs\SampleLesson.md" />
+    <Content Include="img\M01_Hello_World_Output.png" />
     <Content Include="img\samurai_cat.gif" />
     <Content Include="img\samurai_cat.jpg" />
     <Content Include="img\samurai_cat.png" />
