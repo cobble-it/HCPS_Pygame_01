@@ -1,3 +1,6 @@
+####################################################################
+# change the alignment of the text box as well as the size of them #
+####################################################################
 import pygame
 import sys
 
@@ -26,13 +29,14 @@ def main():
         screen.fill((0, 0, 0))
 
         # Draw text (centered)
-        text_rect = text.get_rect(center=(width // 2, height // 2))
+        # change the text box to be left aligned and move it to the upper left corner of the screen
+        text_rect = text.get_rect(left=(width // 3, height // 3))
+
         screen.blit(text, text_rect)
 
         # Update display (page flip)
         pygame.display.flip()
-
-    # Clean up
-    pygame.quit()
-
 main()
+# Clean up
+pygame.quit()
+sys.exit()

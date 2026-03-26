@@ -1,3 +1,8 @@
+#########################################################################
+# 1.) Modify the code to alter the text displayed in the window to say something else   #
+# adittionally try to change the color of the background                #
+#########################################################################
+
 import pygame
 import sys
 
@@ -12,7 +17,7 @@ def main():
 
     # Set up font
     font = pygame.font.SysFont(None, 48)
-    text = font.render("Hello, World!", True, (255, 255, 255))
+    text = font.render("This is a different message!", True, (255, 255, 255)) # Altered the text displayed to be white
 
     # Main loop
     running = True
@@ -23,7 +28,7 @@ def main():
                 running = False
 
         # Fill background
-        screen.fill((0, 0, 0))
+        screen.fill((255, 0, 0)) # make the background red instead of black
 
         # Draw text (centered)
         text_rect = text.get_rect(center=(width // 2, height // 2))
@@ -32,6 +37,8 @@ def main():
         # Update display (page flip)
         pygame.display.flip()
 
-# Clean up
-pygame.quit()
-sys.exit()
+    # Clean up
+    pygame.quit()
+    sys.exit()
+
+main()
