@@ -32,6 +32,13 @@
     <Compile Include="M01_Hello_World_E01.py" />
     <Compile Include="M01_Hello_World_E02.py" />
     <Compile Include="M01_Hello_World_E03.py" />
+    <Compile Include="M02_Falling_Ball_E01.py" />
+    <Compile Include="M02_Falling_Ball_E02.py" />
+    <Compile Include="M02_Falling_Ball_E03.py" />
+    <Compile Include="M03_Input_Polling.py" />
+    <Compile Include="M03_Input_Polling_E01.py" />
+    <Compile Include="M03_Input_Polling_E02.py" />
+    <Compile Include="M03_Input_Polling_E03.py" />
     <Compile Include="snake.py" />
   </ItemGroup>
   <ItemGroup>
@@ -40,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="docs\Lesson_01_Hello_World.md" />
-    <Content Include="docs\Lesson_02.md" />
-    <Content Include="docs\Lesson_03.md" />
+    <Content Include="docs\Lesson_02_Falling_Ball.md" />
+    <Content Include="docs\Lesson_03_Input_Polling.md" />
     <Content Include="docs\Lesson_04.md" />
     <Content Include="docs\Lesson_05.md" />
     <Content Include="docs\Lesson_06.md" />
