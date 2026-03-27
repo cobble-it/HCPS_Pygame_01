@@ -1,6 +1,10 @@
-####################################################################
-# change the alignment of the text box as well as the size of them #
-####################################################################
+####################################################################################################
+# DIRECTIONS:
+# Modify the "Hello_World.py" script to display the text towards the upper left corner of the
+# display window.
+####################################################################################################
+
+# Libraries
 import pygame
 import sys
 
@@ -30,13 +34,13 @@ def main():
 
         # Draw text (centered)
         # change the text box to be left aligned and move it to the upper left corner of the screen
-        text_rect = text.get_rect(left=(width // 3, height // 3))
-
+        text_rect = text.get_rect(topleft=(10, 10))
         screen.blit(text, text_rect)
 
         # Update display (page flip)
         pygame.display.flip()
+    
+    # Clean up
+    pygame.quit()
+
 main()
-# Clean up
-pygame.quit()
-sys.exit()

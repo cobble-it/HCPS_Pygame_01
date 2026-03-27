@@ -1,7 +1,9 @@
-#########################################################################
-# 1.) Modify the code to alter the text displayed in the window to say something else   #
-# adittionally try to change the color of the background                #
-#########################################################################
+####################################################################################################
+# DIRECTIONS:
+# Modify the "Hello_World.py" script to change the text being displayed in the window to say
+# something else.  After doing that, modify the code to make the background display in an
+# alternate color.
+####################################################################################################
 
 import pygame
 import sys
