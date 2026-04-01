@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>M01_Hello_World_E03.py</StartupFile>
+    <StartupFile>M01_Hello_World_E04.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="M01_Hello_World_E04.py" />
     <Compile Include="M02_Falling_Ball.py" />
     <Compile Include="FlappyBall.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E3_ANS.py" />
