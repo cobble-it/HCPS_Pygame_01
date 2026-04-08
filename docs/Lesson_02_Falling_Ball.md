@@ -4,7 +4,7 @@
 
 #### This program draws a blue ball that falls from the top of the screen, bounces off the floor, and eventually comes to rest, just like a real ball!
 
-![Image of pygame window running program](image-1.png)
+<img src="../img/falling_ball.png" width="400"></img>
 
 ## Lets break down some important concepts this program demonstrates:
 
@@ -17,7 +17,7 @@ while running:
     clock.tick(DISPLAY_FPS)
 ```
 
-![copyright free image of game loop](image.png)
+<img src="../img/game_loop.png" width="400"></img>
 
 #### Every game runs a loop that repeats (our game is ~10 times per second) aka 10 fps. Each pass through the loop is one frame. Each frame we:
 
@@ -40,7 +40,7 @@ ball_velocity_y += gravity      # Ball speeds up
 ball_pos[1] += ball_velocity_y  # Ball moves down
 ```
 
-![alt text](image-2.png)
+<img src="../img/gravity.png" width="400"></img>
 
 ### Bouncing Logic
 
