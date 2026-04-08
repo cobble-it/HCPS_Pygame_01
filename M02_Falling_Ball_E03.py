@@ -8,6 +8,7 @@ DISPLAY_FPS = 10
 COLOR_WHITE = (255, 255, 255)
 COLOR_BLUE = (0, 100, 255)
 COLOR_RED = (255, 0, 0)
+COLOR_GREEN = (0, 255, 0)
 
 def main():
     # Initialize Pygame, setup environment variables, and initialize display.
@@ -28,6 +29,10 @@ def main():
     ball2_pos = [DISPLAY_WIDTH // 4, 50]    # The starting coordinates
     ball2_velocity_y = 0                    # Current speed
 
+    # Ball 3 starting state.
+    ball3_pos = [DISPLAY_WIDTH // 2 + DISPLAY_WIDTH // 4, 50]    # The starting coordinates
+    ball3_velocity_y = 0                    # Current speed
+
     # Start the primary game loop. (one frame per iteration)
     running = True
     while running:
@@ -39,41 +44,49 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
 
-        # --- Ball 1 Physics ---
+        # --- Ball 1 Physics --- (DOCUMENTED)
         ball_velocity_y += gravity          # Update the velocity to account for the
                                             # acceleration of gravity.
         ball_pos[1] += ball_velocity_y      # Update the position of the ball to create
                                             # movement based on the current velocity.
         # If ball 1 hit the floor, apply bouncing logic.
         if ball_pos[1] + ball_radius >= DISPLAY_HEIGHT:
-            ball_pos[1] = DISPLAY_HEIGHT - ball_radius  # Snap the ball to the floor.
-            ball_velocity_y *= ball_bounce_factor        # Reverse the ball's direction
-                                                         # and reduce the velocity in
-                                                         # a manner where velocity
-                                                         # converges on zero.
+            ball_pos[1] = DISPLAY_HEIGHT - ball_radius      # Snap the ball to the floor.
+            ball_velocity_y *= ball_bounce_factor           # Reverse the ball's direction
+                                                            # and reduce the velocity in
+                                                            # a manner where velocity
+                                                            # converges on zero.
+            
             # Stop bouncing if velocity is tiny (less than 1).
             if abs(ball_velocity_y) < 1:
                 ball_velocity_y = 0
 
         # --- Ball 2 Physics ---
-        ball2_velocity_y += gravity         # Update the velocity to account for the
-                                            # acceleration of gravity.
-        ball2_pos[1] += ball2_velocity_y    # Update the position of the ball to create
-                                            # movement based on the current velocity.
-        # If ball 2 hit the floor, apply bouncing logic.
+        ball2_velocity_y += gravity         
+        ball2_pos[1] += ball2_velocity_y    
+        
         if ball2_pos[1] + ball_radius >= DISPLAY_HEIGHT:
-            ball2_pos[1] = DISPLAY_HEIGHT - ball_radius  # Snap the ball to the floor.
-            ball2_velocity_y *= ball_bounce_factor        # Reverse the ball's direction
-                                                          # and reduce the velocity in
-                                                          # a manner where velocity
-                                                          # converges on zero.
-            # Stop bouncing if velocity is tiny (less than 1).
+            ball2_pos[1] = DISPLAY_HEIGHT - ball_radius  
+            ball2_velocity_y *= ball_bounce_factor
+            
             if abs(ball2_velocity_y) < 1:
                 ball2_velocity_y = 0
+
+        # --- Ball 3 Physics ---
+        ball3_velocity_y += gravity         
+        ball3_pos[1] += ball3_velocity_y    
+        
+        if ball3_pos[1] + ball_radius >= DISPLAY_HEIGHT:
+            ball3_pos[1] = DISPLAY_HEIGHT - ball_radius  
+            ball3_velocity_y *= ball_bounce_factor
+
+            if abs(ball3_velocity_y) < 1:
+                ball3_velocity_y = 0
 
         # Draw both balls on the screen.
         pygame.draw.circle(screen, COLOR_BLUE, (int(ball_pos[0]),  int(ball_pos[1])),  ball_radius)
         pygame.draw.circle(screen, COLOR_RED,  (int(ball2_pos[0]), int(ball2_pos[1])), ball_radius)
+        pygame.draw.circle(screen, COLOR_GREEN,  (int(ball3_pos[0]), int(ball3_pos[1])), ball_radius)
 
         # Show the new frame with a page flip.
         pygame.display.flip()

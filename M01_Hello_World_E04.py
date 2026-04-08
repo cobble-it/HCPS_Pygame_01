@@ -45,10 +45,10 @@ def main():
         # pygame.draw.rect(surface, color, [x, y, width, height]
         pygame.draw.rect(screen, COLOR_RED,    [0 * (DISPLAY_WIDTH // 6), 0 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])
         pygame.draw.rect(screen, COLOR_ORANGE, [1 * (DISPLAY_WIDTH // 6), 1 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
-        #pygame.draw.rect(screen, COLOR_YELLOW, [2 * (DISPLAY_WIDTH // 6), 2 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
-        #pygame.draw.rect(screen, COLOR_GREEN,  [3 * (DISPLAY_WIDTH // 6), 3 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
-        #pygame.draw.rect(screen, COLOR_BLUE,   [4 * (DISPLAY_WIDTH // 6), 4 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
-        #pygame.draw.rect(screen, COLOR_PURPLE, [5 * (DISPLAY_WIDTH // 6), 5 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
+        pygame.draw.rect(screen, COLOR_YELLOW, [2 * (DISPLAY_WIDTH // 6), 2 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
+        pygame.draw.rect(screen, COLOR_GREEN,  [3 * (DISPLAY_WIDTH // 6), 3 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
+        pygame.draw.rect(screen, COLOR_BLUE,   [4 * (DISPLAY_WIDTH // 6), 4 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
+        pygame.draw.rect(screen, COLOR_PURPLE, [5 * (DISPLAY_WIDTH // 6), 5 * (DISPLAY_HEIGHT // 6), (DISPLAY_WIDTH // 6), DISPLAY_HEIGHT // 6])           
     
         # Update the display to show what we drew
         pygame.display.flip()

@@ -51,11 +51,15 @@ def main():
         # If the ball hit the floor, apply bouncing logic.
         if ball_pos[1] + ball_radius >= DISPLAY_HEIGHT:
             ball_pos[1] = DISPLAY_HEIGHT - ball_radius  # Snap the ball to the floor.
-            ball_velocity_y *= ball_bounce_factor
-            BALL_COLOR = COLOR_RED                      # Reverse the ball's direction
+            ball_velocity_y *= ball_bounce_factor       # Reverse the ball's direction
                                                         # and reduce the velocity in
                                                         # a manner where velocity
                                                         # converges on zero.
+            
+            if(BALL_COLOR == COLOR_RED):                # Everytime the ball hits the
+                BALL_COLOR = COLOR_BLUE                 # ground, make it switch back
+            else:                                       # and forth between RED and BLUE.
+                BALL_COLOR = COLOR_RED                  
 
             # Stop bouncing if velocity is tiny (less than 1).  This prevents jitter and
             # lets the ball consistently come to a resting state at the end of a bouncing
