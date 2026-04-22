@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>M02_Falling_Ball_E03.py</StartupFile>
+    <StartupFile>no-internet-game.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -40,7 +40,9 @@
     <Compile Include="M03_Input_Polling_E01.py" />
     <Compile Include="M03_Input_Polling_E02.py" />
     <Compile Include="M03_Input_Polling_E03.py" />
+    <Compile Include="no-internet-game.py" />
     <Compile Include="snake.py" />
+    <Compile Include="whack-a-mole.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="docs\" />
