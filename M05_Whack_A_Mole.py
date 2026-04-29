@@ -86,7 +86,7 @@ def draw_mole(i):
     x = cols[i] * CELL_SIZE + CELL_SIZE // 2
     y = rows[i] * CELL_SIZE + CELL_SIZE // 2 + offsets[i]
     #     use your super cool image here 👇
-    myimage = pygame.image.load("./img/example.png")
+    myimage = pygame.image.load("./img/pancake_whacker_monster_t.png")
     imagerect = myimage.get_rect(center=(x, y))
     SCREEN.blit(myimage, imagerect)
 

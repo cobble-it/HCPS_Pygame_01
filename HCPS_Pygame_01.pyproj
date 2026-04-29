@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>no-internet-game.py</StartupFile>
+    <StartupFile>M04_No_Internet_Game.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -40,9 +40,15 @@
     <Compile Include="M03_Input_Polling_E01.py" />
     <Compile Include="M03_Input_Polling_E02.py" />
     <Compile Include="M03_Input_Polling_E03.py" />
-    <Compile Include="no-internet-game.py" />
+    <Compile Include="M04_No_Internet_Game.py" />
+    <Compile Include="M04_No_Internet_Game_E01.py" />
+    <Compile Include="M04_No_Internet_Game_E02.py" />
+    <Compile Include="M04_No_Internet_Game_E03.py" />
+    <Compile Include="M05_Whack_A_Mole_E01.py" />
+    <Compile Include="M05_Whack_A_Mole_E02.py" />
+    <Compile Include="M05_Whack_A_Mole_E03.py" />
     <Compile Include="snake.py" />
-    <Compile Include="whack-a-mole.py" />
+    <Compile Include="M05_Whack_A_Mole.py" />
     <Compile Include="M99_StealTheBrainrot.py" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,7 @@
     <Content Include="docs\Lesson_09.md" />
     <Content Include="docs\SampleLesson.md" />
     <Content Include="img\M01_Hello_World_Output.png" />
+    <Content Include="img\pancake_whacker_monster_t.png" />
     <Content Include="img\samurai_cat.gif" />
     <Content Include="img\samurai_cat.jpg" />
     <Content Include="img\samurai_cat.png" />
