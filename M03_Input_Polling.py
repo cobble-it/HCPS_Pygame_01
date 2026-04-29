@@ -23,6 +23,7 @@ def main():
         for event in pygame.event.get():
             
             # Render the text for each event and its associated attributes.
+            print(event)
             print(pygame.event.event_name(event.type))  # Console Info Display
 
             # For each box of text, create a 'Surface' with the desired contents.
