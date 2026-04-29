@@ -47,6 +47,7 @@
     <Compile Include="M05_Whack_A_Mole_E01.py" />
     <Compile Include="M05_Whack_A_Mole_E02.py" />
     <Compile Include="M05_Whack_A_Mole_E03.py" />
+    <Compile Include="M98_Asteroids.py" />
     <Compile Include="snake.py" />
     <Compile Include="M05_Whack_A_Mole.py" />
     <Compile Include="M99_StealTheBrainrot.py" />
