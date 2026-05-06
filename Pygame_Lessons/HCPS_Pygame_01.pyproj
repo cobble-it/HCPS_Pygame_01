@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>M03_Input_Polling.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,18 +22,48 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="M01_Hello_World_E04.py" />
-    <Compile Include="M02_Falling_Ball.py" />
+    <Folder Include="docs\" />
+    <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="docs\Lesson_01_Hello_World.md" />
+    <Content Include="docs\Lesson_02_Falling_Ball.md" />
+    <Content Include="docs\Lesson_03_Input_Polling.md" />
+    <Content Include="docs\Lesson_04_Drawing_Shapes%28No_Internet_Game%29.md" />
+    <Content Include="docs\Lesson_05.md" />
+    <Content Include="docs\Lesson_06.md" />
+    <Content Include="docs\Lesson_07.md" />
+    <Content Include="docs\Lesson_08.md" />
+    <Content Include="docs\Lesson_09.md" />
+    <Content Include="docs\SampleLesson.md" />
+    <Content Include="img\clear_draw_flip.png" />
+    <Content Include="img\event_queue.png" />
+    <Content Include="img\falling_ball.png" />
+    <Content Include="img\game_loop.png" />
+    <Content Include="img\Gemini_pygame.png" />
+    <Content Include="img\Gemini_Pygame_axis.png" />
+    <Content Include="img\gravity.png" />
+    <Content Include="img\Input_polling.png" />
+    <Content Include="img\M01_Hello_World_Output.png" />
+    <Content Include="img\pancake_whacker_monster_t.png" />
+    <Content Include="img\samurai_cat.gif" />
+    <Content Include="img\samurai_cat.jpg" />
+    <Content Include="img\samurai_cat.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="FlappyBall.py" />
+    <Compile Include="HCPS_Pyg_01_DrawSquare_BEGIN.py" />
+    <Compile Include="HCPS_PYG_01_DrawSquare_E1_ANS.py" />
+    <Compile Include="HCPS_PYG_01_DrawSquare_E2_ANS.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E3_ANS.py" />
     <Compile Include="HCPS_PYG_01_DrawSquare_E4_ANS.py" />
-    <Compile Include="HCPS_PYG_01_DrawSquare_E2_ANS.py" />
-    <Compile Include="HCPS_PYG_01_DrawSquare_E1_ANS.py" />
-    <Compile Include="HCPS_Pyg_01_DrawSquare_BEGIN.py" />
+    <Compile Include="HCPS_PYG_02_SimpleMaze_E1_ANS.py" />
     <Compile Include="M01_Hello_World.py" />
     <Compile Include="M01_Hello_World_E01.py" />
     <Compile Include="M01_Hello_World_E02.py" />
     <Compile Include="M01_Hello_World_E03.py" />
+    <Compile Include="M01_Hello_World_E04.py" />
+    <Compile Include="M02_Falling_Ball.py" />
     <Compile Include="M02_Falling_Ball_E01.py" />
     <Compile Include="M02_Falling_Ball_E02.py" />
     <Compile Include="M02_Falling_Ball_E03.py" />
@@ -44,34 +75,14 @@
     <Compile Include="M04_No_Internet_Game_E01.py" />
     <Compile Include="M04_No_Internet_Game_E02.py" />
     <Compile Include="M04_No_Internet_Game_E03.py" />
+    <Compile Include="M05_Whack_A_Mole.py" />
     <Compile Include="M05_Whack_A_Mole_E01.py" />
     <Compile Include="M05_Whack_A_Mole_E02.py" />
     <Compile Include="M05_Whack_A_Mole_E03.py" />
+    <Compile Include="M97_Shape_Holes.py" />
     <Compile Include="M98_Asteroids.py" />
-    <Compile Include="snake.py" />
-    <Compile Include="M05_Whack_A_Mole.py" />
     <Compile Include="M99_StealTheBrainrot.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="docs\" />
-    <Folder Include="img\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="docs\Lesson_01_Hello_World.md" />
-    <Content Include="docs\Lesson_02_Falling_Ball.md" />
-    <Content Include="docs\Lesson_03_Input_Polling.md" />
-    <Content Include="docs\Lesson_04.md" />
-    <Content Include="docs\Lesson_05.md" />
-    <Content Include="docs\Lesson_06.md" />
-    <Content Include="docs\Lesson_07.md" />
-    <Content Include="docs\Lesson_08.md" />
-    <Content Include="docs\Lesson_09.md" />
-    <Content Include="docs\SampleLesson.md" />
-    <Content Include="img\M01_Hello_World_Output.png" />
-    <Content Include="img\pancake_whacker_monster_t.png" />
-    <Content Include="img\samurai_cat.gif" />
-    <Content Include="img\samurai_cat.jpg" />
-    <Content Include="img\samurai_cat.png" />
+    <Compile Include="snake.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
