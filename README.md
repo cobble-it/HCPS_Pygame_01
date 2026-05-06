@@ -1,6 +1,6 @@
 # HCPS Pygame Curriculum
 
-<img src="img/Gemini_pygame.png" width="800" alt="HCPS Pygame Curriculum Banner"></img>
+<img src="Pygame_Lessons/img/Gemini_pygame.png" width="800" alt="HCPS Pygame Curriculum Banner"></img>
 
 **HCPS_Pygame_01** repository: This project contains the Pygame curricular development specifically designed for **HCPS**.
 
