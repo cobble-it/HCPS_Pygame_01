@@ -150,9 +150,6 @@ while running:
                     velocity_y = JUMP_STRENGTH
                     on_ground = False
 
-            if not game_active and event.key == pygame.K_r:
-                game_active = True
-                reset_game()
 
     if game_active:
         # ---🧍 Player ---
@@ -183,7 +180,6 @@ while running:
 
     else:
         draw_text("Press SPACE to Start", WIDTH // 2 - 150, HEIGHT // 2 - 20)
-        draw_text("Press R to Restart", WIDTH // 2 - 140, HEIGHT // 2 + 20)
         draw_text(f"Score: {score}", WIDTH // 2 - 50, HEIGHT // 2 + 60)
 
     pygame.display.flip()
