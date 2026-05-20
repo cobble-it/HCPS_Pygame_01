@@ -53,10 +53,14 @@ def draw_text(text, x, y):
     screen.blit(img, (x, y))
 
 def reset_game():
+    # as a rule of thumb the use of global variables is often frowned apon excpet in specific circumstances
+    # but for the sake of keeping this example simple golabals are used 
+    # the global key word is used for allowing one to change the value of a global variable inside a function
+    # without it you would only be able to read the value of the global variable but not change it
     global obs_x, obs_y, obs_w, obs_h
     global spawn_timer, speed, score
     global velocity_y, on_ground, player_y
-
+    
     obs_x.clear()
     obs_y.clear()
     obs_w.clear()
@@ -109,6 +113,7 @@ def update_obstacles(dt):
     obs_x, obs_y, obs_w, obs_h = new_x, new_y, new_w, new_h
 
 def check_collision():
+    retVal=False
     for i in range(len(obs_x)):
         if (
             player_x < obs_x[i] + obs_w[i] and
@@ -116,8 +121,8 @@ def check_collision():
             player_y < obs_y[i] + obs_h[i] and
             player_y + PLAYER_HEIGHT > obs_y[i]
         ):
-            return True
-    return False
+            retVal=True
+    return retVal
 
 def draw_player():
     pygame.draw.rect(screen, BLACK, (player_x, player_y, PLAYER_WIDTH, PLAYER_HEIGHT))
