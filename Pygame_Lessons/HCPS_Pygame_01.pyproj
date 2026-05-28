@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>M03_Target_Practice_E03.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -69,10 +68,10 @@
     <Compile Include="M02_Falling_Ball_E01.py" />
     <Compile Include="M02_Falling_Ball_E02.py" />
     <Compile Include="M02_Falling_Ball_E03.py" />
-    <Compile Include="M03_CONDITIONALS.py" />
-    <Compile Include="M03_CONDITIONALS_E01.py" />
-    <Compile Include="M03_CONDITIONALS_E02.py" />
-    <Compile Include="M03_CONDITIONALS_E03.py" />
+    <Compile Include="M03_Target_Practice.py" />
+    <Compile Include="M03_Target_Practice_E01.py" />
+    <Compile Include="M03_Target_Practice_E02.py" />
+    <Compile Include="M03_Target_Practice_E03.py" />
     <Compile Include="M04_LISTS.py" />
     <Compile Include="M04_LISTS_E01.py" />
     <Compile Include="M04_LISTS_E02.py" />
