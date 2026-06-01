@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>M03_Target_Practice_E03.py</StartupFile>
+    <StartupFile>M04_Brainrot_Spinner_E03.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,19 +37,35 @@
     <Content Include="docs\Lesson_08_Whack_A_Mole.md" />
     <Content Include="docs\Lesson_09.md" />
     <Content Include="docs\SampleLesson.md" />
+    <Content Include="img\bombardiro.png" />
+    <Content Include="img\bombardiro_croc.png" />
+    <Content Include="img\bombombini.png" />
+    <Content Include="img\burbaloni.png" />
+    <Content Include="img\cappuccino.png" />
     <Content Include="img\clear_draw_flip.png" />
     <Content Include="img\event_queue.png" />
     <Content Include="img\falling_ball.png" />
+    <Content Include="img\frigocamelo.png" />
     <Content Include="img\game_loop.png" />
     <Content Include="img\Gemini_pygame.png" />
     <Content Include="img\Gemini_Pygame_axis.png" />
+    <Content Include="img\glorbo.png" />
     <Content Include="img\gravity.png" />
     <Content Include="img\Input_polling.png" />
+    <Content Include="img\lavaca.png" />
+    <Content Include="img\lirili.png" />
     <Content Include="img\M01_Hello_World_Output.png" />
     <Content Include="img\pancake_whacker_monster_t.png" />
+    <Content Include="img\patapim.png" />
     <Content Include="img\samurai_cat.gif" />
     <Content Include="img\samurai_cat.jpg" />
     <Content Include="img\samurai_cat.png" />
+    <Content Include="img\tick.wav" />
+    <Content Include="img\tralalero.png" />
+    <Content Include="img\trippi.png" />
+    <Content Include="img\tungtung.png" />
+    <Content Include="img\tungtung_gold.png" />
+    <Content Include="img\win.wav" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FlappyBall.py" />
@@ -72,10 +88,10 @@
     <Compile Include="M03_Target_Practice_E01.py" />
     <Compile Include="M03_Target_Practice_E02.py" />
     <Compile Include="M03_Target_Practice_E03.py" />
-    <Compile Include="M04_LISTS.py" />
-    <Compile Include="M04_LISTS_E01.py" />
-    <Compile Include="M04_LISTS_E02.py" />
-    <Compile Include="M04_LISTS_E03.py" />
+    <Compile Include="M04_Brainrot_Spinner.py" />
+    <Compile Include="M04_Brainrot_Spinner_E01.py" />
+    <Compile Include="M04_Brainrot_Spinner_E02.py" />
+    <Compile Include="M04_Brainrot_Spinner_E03.py" />
     <Compile Include="M05_Input_Polling.py" />
     <Compile Include="M05_Input_Polling_E01.py" />
     <Compile Include="M05_Input_Polling_E02.py" />
