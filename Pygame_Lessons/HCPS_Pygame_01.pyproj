@@ -25,6 +25,7 @@
     <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\EnvironmentSetUp.md" />
     <Content Include="docs\Lesson_01_Hello_World.md" />
     <Content Include="docs\Lesson_03_CONDITIONALS.md" />
     <Content Include="docs\Lesson_04_LISTS.md" />
