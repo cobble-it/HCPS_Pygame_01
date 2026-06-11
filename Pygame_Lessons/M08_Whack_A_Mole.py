@@ -193,3 +193,5 @@ while running:
 
 pygame.quit()
 sys.exit()
+
+# TODO: Break down so only grid shown first, then add elements sequentially
