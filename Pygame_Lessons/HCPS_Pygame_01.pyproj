@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>M04_Brainrot_Spinner_E03.py</StartupFile>
+    <StartupFile>M02_Making_Colors.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,7 @@
     <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\01_Project_Plan.md" />
     <Content Include="docs\EnvironmentSetUp.md" />
     <Content Include="docs\GitStarter.md" />
     <Content Include="docs\Lesson_01_Hello_World.md" />
@@ -82,10 +83,14 @@
     <Compile Include="M01_Hello_World_E02.py" />
     <Compile Include="M01_Hello_World_E03.py" />
     <Compile Include="M01_Hello_World_E04.py" />
+    <Compile Include="M02_Coordinate_Mapping.py" />
+    <Compile Include="M02_Draw_It_E01.py" />
+    <Compile Include="M02_Draw_It_E02.py" />
     <Compile Include="M02_Falling_Ball.py" />
     <Compile Include="M02_Falling_Ball_E01.py" />
     <Compile Include="M02_Falling_Ball_E02.py" />
     <Compile Include="M02_Falling_Ball_E03.py" />
+    <Compile Include="M02_Making_Colors.py" />
     <Compile Include="M03_Target_Practice.py" />
     <Compile Include="M03_Target_Practice_E01.py" />
     <Compile Include="M03_Target_Practice_E02.py" />
