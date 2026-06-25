@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62ced78b-9847-4c01-8f26-3cbf2aaa2d3b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>M02_Making_Colors.py</StartupFile>
+    <StartupFile>M01_Build_Palette.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -83,6 +83,7 @@
     <Compile Include="M01_Hello_World_E02.py" />
     <Compile Include="M01_Hello_World_E03.py" />
     <Compile Include="M01_Hello_World_E04.py" />
+    <Compile Include="M01_Build_Palette.py" />
     <Compile Include="M02_Coordinate_Mapping.py" />
     <Compile Include="M02_Draw_It_E01.py" />
     <Compile Include="M02_Draw_It_E02.py" />
@@ -112,6 +113,7 @@
     <Compile Include="M08_Whack_A_Mole_E02.py" />
     <Compile Include="M08_Whack_A_Mole_E03.py" />
     <Compile Include="M97_Shape_Holes.py" />
+    <Compile Include="M97_Spectral_Display.py" />
     <Compile Include="M98_Asteroids.py" />
     <Compile Include="M99_StealTheBrainrot.py" />
     <Compile Include="snake.py" />
