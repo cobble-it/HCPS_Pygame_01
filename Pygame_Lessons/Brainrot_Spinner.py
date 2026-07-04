@@ -86,7 +86,7 @@ def load_sounds():
     try:
         pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=512)
         here = os.path.dirname(os.path.abspath(__file__))
-        for key, fname in (("tick", "tick.wav"), ("win", "win.wav")):
+        for key, fname in (("tick", "img/tick.wav"), ("win", "img/win.wav")):
             path = os.path.join(here, fname)
             if os.path.isfile(path):
                 sounds[key] = pygame.mixer.Sound(path)
@@ -101,12 +101,13 @@ def load_images():
     here = os.path.dirname(os.path.abspath(__file__))
     cache = {}
     for item in ITEM_POOL:
-        fname = item.get("image")
+        fname =  item.get("image")
         if not fname or fname in cache:
             continue
-        path = os.path.join(here, fname)
+        path = os.path.join(here, "img", fname)
         if os.path.isfile(path):
             try:
+                print(f"[Images] Loading '{fname}'...")
                 cache[fname] = pygame.transform.smoothscale(
                     pygame.image.load(path).convert_alpha(), IMG_SIZE
                 )
